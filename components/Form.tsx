@@ -11,10 +11,10 @@ export default function Form() {
         <form>
             <div>
                 <div className='flex flex-col w-full gap-y-3'>
-                    <Input type="name" label="Cliente" placeholder='Razão Social' />
-                    <Input type="System" label="Sistema" placeholder='ex:PontoWeb' />
+                    <Input type="name" label="Cliente" placeholder='razão social' />
+                    <Input type="System" label="Sistema" placeholder='sistema de ponto' />
                     <DatePicker
-                        className="max-w-md"
+                        className="max-w-md text-start"
                         granularity="second"
                         label="Data e hora"
                         value={date}
@@ -31,6 +31,7 @@ export default function Form() {
                         ))}
                     </Select>
                     <Button color='primary'>Salvar</Button>
+
             
                 </div>
             </div>

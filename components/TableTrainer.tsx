@@ -88,7 +88,7 @@ export default function App() {
   <Table aria-label="Example table with custom cells">
       <TableHeader columns={columns}>
         {(column) => (
-          <TableColumn key={column.uid} align={column.uid === "actions" ? "center" : "start"}>
+          <TableColumn defaultWidth={300}key={column.uid} align={column.uid === "actions" ? "center" : "start"}>
             {column.name}
           </TableColumn>
         )}
@@ -101,7 +101,7 @@ export default function App() {
         )}
       </TableBody>
     </Table>
-    <div className="flex justify-center">
+    <div className="flex w-full justify-center">
     <Pagination
       total={Math.ceil(users.length / itemsPerPage)}
       initialPage={1}

@@ -14,15 +14,15 @@ export const siteConfig = {
     },
     {
       label: "Usuários",
-      href: "/pricing",
+      href: "/users",
     },
     {
       label: "Feed",
-      href: "/blog",
+      href: "/feed",
     },
     {
-      label: "Sobre",
-      href: "/about",
+      label: "Report",
+      href: "/report",
     },
   ],
   navMenuItems: [
@@ -60,10 +60,10 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
+    github: "https://github.com/D4n1l0sbg/nextjs-agenda-hub",
+    twitter: "",
     create: "treinamentos/create",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    discord: "",
+    sponsor: "",
   },
 };
